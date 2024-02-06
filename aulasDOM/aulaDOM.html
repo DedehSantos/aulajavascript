@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(39, 148, 243);
+            color: white;
+            font: normal 18pt Arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>  Iniciando DOM  </h1>
+    <p>Aqui vai o Resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javacript</p>
+    <div id="msg" >clique em mim</div>
+    <input type="submit" value="mudar a cor" onclick="mudarcor()"> 
+
+
+    <script>
+      
+     
+      
+function mudarcor (){
+   
+   
+      d = window.document.getElementById('msg')
+
+      d.style.color =  '#f00'; marginleft = "400px"
+  
+      
+      } 
+
+  
+    
+
+    </script>
+</body>
+</html>
